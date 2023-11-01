@@ -25,14 +25,20 @@ section{
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://i.postimg.cc/3wWPMj5h/backgrounds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    scroll-margin-block: 3.7rem;
+    scroll-margin-block: 6rem;
+}
+
+img[alt="Logo"]{
+  width: 70px;
+  margin-left: 20px;
+ 
 }
 
 
 
 
 
-@media (min-width: 400px){ 
+@media (min-width: 460px){ 
   .heading,.heading2,.section-header,.heading3,.heading5 {
 
     font: "Oswald", sans-serif;
