@@ -33,56 +33,36 @@ img[alt="Logo"]{
   margin-left: 20px;
  
 }
-
-
-
-
-
-@media (min-width: 460px){ 
-  .heading,.heading2,.section-header,.heading3,.heading5 {
-
-    font: "Oswald", sans-serif;
-    letter-spacing: 0;
-    padding: .25em 0 .325em;
-    margin-top: 20px;
-    margin-left: 60px;
-    width: 20rem;
-    text-shadow: 0 0 80px rgba(255,255,255,.5);
-  background: url(https://i.postimg.cc/4x8x84G0/240-F-627348790-z-WPC83l-Kr-ILsj-U0j-ZPMi-SDQL53q-WRHk-R.jpg) repeat-x;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 100s linear infinite;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-
-}
-
-.heading5,.heading,.heading2{
-  text-align: center;
-}
-
 p{
 font-weight: 900;
- 
-}
-.head{
-  margin-left: 20px;
-}
-section{
-  background-repeat: repeat;
-}
 
-.heading5{
-  margin-top: 20px;
-  margin-right: 400px;
-  width:100%;
 }
+.heading,.heading2,.section-header,.heading3,.heading5 {
+  font: "Oswald", sans-serif;
+  letter-spacing: 0;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+background: url(https://i.postimg.cc/4x8x84G0/240-F-627348790-z-WPC83l-Kr-ILsj-U0j-ZPMi-SDQL53q-WRHk-R.jpg) repeat-x;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 100s linear infinite;
+  -webkit-transform: translate3d(0,0,0);}
 
-@-webkit-keyframes aitf {
-  0% { background-position: 0% 100%; }
-  100% { background-position: 50% 0%; }
-}
+  @-webkit-keyframes aitf {
+    0% { background-position: 0% 100%; }
+    100% { background-position: 50% 0%; }
+    }
+    
+    .heading2{
+      margin-left: 200px;
+    }
+
+    
+
+
+
+
+
 
 
 /* About Page */
@@ -307,7 +287,7 @@ margin-top: 20px;
     }
   }
   
-  @media screen and (width < 569px) {
+  @media screen and (min-width < 569px) {
   
     .direct-contact-container, .form-wrapper {
       float: none;
@@ -349,8 +329,12 @@ margin-top: 20px;
   
   @media screen and (max-width: 410px) {
     .send-button {
-      width: 99%;
+      width: 60%;
     }
+    .form-control{
+      width: 60%;
+    }
+
   }
 
 
@@ -368,7 +352,6 @@ margin-top: 20px;
 
   
 
-}
 
 
 
@@ -376,3 +359,4 @@ margin-top: 20px;
 
 
 
+ 
