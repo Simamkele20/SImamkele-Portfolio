@@ -75,10 +75,6 @@ background: url(https://i.postimg.cc/4x8x84G0/240-F-627348790-z-WPC83l-Kr-ILsj-U
 
 
 
-img[alt=Profile2]{
-    margin-top: -150px;
-    margin-left: 300px;
-}
 
 /* SKills Page */
 
@@ -360,12 +356,12 @@ margin-top: 20px;
 
   }
 
-  @media screen and (max-width: 387px) and (min-width:200px) {
+  @media screen and (max-width: 769px) and (min-width:200px) and (orientation: portrait) {
     .send-button {
-      width: 50%;
+      width: 70%;
     }
     .form-control{
-      width: 50%;
+      width: 70%;
     }
     .direct-contact-container{
      margin-left: -30px;
@@ -377,13 +373,36 @@ margin-top: 20px;
    .send-text, .bi-send{
     margin-left: -190px;
    }
+.heading-wrapper{
+  margin-top: 50px;
+margin-left: -100px;
+width: 500px;
+}
 
-   .col-8{
-    width: 200px;
-    margin-left: 100px;
-   }
+img[alt="Profile2"]{
+  display: none;
+}
+
+.aboutp{
+margin-left: 300px;
+
+  }
   }
 
+  @media screen and (max-width: 768px) and (min-width:504px) and (orientation: portrait) {
+
+    img[alt="Profile1"]{
+      height: 500px;
+    }
+  }
+
+
+  @media screen and (max-width: 523px) and (min-width:200px) and (orientation: portrait) {
+
+    .aboutp{
+      margin-left: 100px;
+    }
+  }
 
 
 
