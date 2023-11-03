@@ -369,17 +369,17 @@ margin-left: -100px;
    }
 }
 
-@media screen and (max-width:460px) {
+@media screen and (max-width:490px) {
   img[alt="Profile1"]{
-    height: 300px;
+    
   margin: auto;}
   .heading-wrapper{
     margin-top: 50px;
-   margin-left:-152px;}
+   margin-left:-100px;}
 
   .heading-wrappers{
-    margin-top: 50px;
-   margin-left:20px;
+    margin-top: 20px;
+   margin-left:100px;
   font-size: smaller;
 width: 300px;}
 
@@ -393,7 +393,7 @@ width: 300px;}
   }
   .direct-contact-container{
     
-    margin-left: -20px;
+    margin-left: 60px;
   }
   .contact-text {
     margin-left: -1px;
