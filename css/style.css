@@ -361,25 +361,7 @@ img[alt="Mzwas"]{
 }
 
 @media screen and (max-width:555px) {
-
   img[alt="Profile1"]{
-    width: 300px;
-    margin-left: -30px;
-    margin-right: auto;
-  }
-  .heading-wrapper{
-margin-left: -100px;
-    width: 500px;
-   }
-  .heading-wrappers{
-margin-left: -100px;
-    width: 500px;
-   }
-}
-
-@media screen and (max-width:490px) {
-  img[alt="Profile1"]{
-    
   margin: auto;}
   .heading-wrapper{
     margin-top: 50px;
@@ -387,7 +369,7 @@ margin-left: -100px;
 
   .heading-wrappers{
     margin-top: 20px;
-   margin-left:100px;
+   margin-left:120px;
   font-size: smaller;
 width: 300px;}
 
@@ -411,7 +393,7 @@ width: 300px;}
   }
 }
 
-@media screen and (max-width:301px) {
+@media screen and (max-width:412px) {
 
   img[alt="Profile1"]{
     margin: auto;}
@@ -420,7 +402,7 @@ width: 300px;}
      margin-left:-155px;}
      .heading-wrappers{
       margin-top: 20px;
-     margin-left:-10px;
+     margin-left:5px;
     font-size: smaller;
   width: 300px;}
 
