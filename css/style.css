@@ -71,7 +71,7 @@ background: url(https://i.postimg.cc/4x8x84G0/240-F-627348790-z-WPC83l-Kr-ILsj-U
 
 
 
-/* About Page */
+
 
 
 
@@ -81,6 +81,14 @@ background: url(https://i.postimg.cc/4x8x84G0/240-F-627348790-z-WPC83l-Kr-ILsj-U
 * .heading3{
 
 margin-top: 20px;
+}
+
+/* Testimonials Page */
+img[alt="Mzwa"]{
+  padding-top: 80px;
+}
+img[alt="Mzwas"]{
+  margin-top: -90px;
 }
 
 
@@ -402,6 +410,39 @@ width: 300px;}
     margin:auto;
   }
 }
+
+@media screen and (max-width:301px) {
+
+  img[alt="Profile1"]{
+    margin: auto;}
+    .heading-wrapper{
+      margin-top: 50px;
+     margin-left:-155px;}
+     .heading-wrappers{
+      margin-top: 20px;
+     margin-left:-10px;
+    font-size: smaller;
+  width: 300px;}
+
+  .direct-contact-container{
+    
+    margin-left: -10px;}
+    .contact-text {
+      margin-left: -1px;}
+
+      img[alt="Mzwa"]{
+        margin-left: -50px;
+        margin-top: 5px;
+      }
+      img[alt="Mzwas"]{
+        margin-left: -80px;
+        margin-top: 5px;
+      }
+
+     
+}
+
+
 
   
   
